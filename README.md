@@ -4,7 +4,7 @@ it's the final project of Meta iOS Developer Professional Certificate
 Its an app that allow the users to order from menu 
 
 
-## vedio Demo :
+## vedio Demo : 
 
 
 
