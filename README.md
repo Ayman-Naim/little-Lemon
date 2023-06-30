@@ -1,17 +1,26 @@
-# Little-Lemon-dinner-menu 
-it's a project practicing swiftui in meta ios Meta iOS Developer Professional Certificate
+# Little Lemon Food Ordering App
+it's the final project of Meta iOS Developer Professional Certificate
 
-its a project for creating menu for restaurant 
+Its an app that allow the users to order from menu 
 
 
-vedio Demo :
+## vedio Demo :
 
 
 
 <img src="https://github.com/Ayman-Naim/Little-Lemon-dinner-menu/blob/main/screenshots/Demo.gif">
 
 
-screenshots:
+## Features
+ - [x] 
+ - [x] 
+ - [x] 
+
+
+## Wireframe
+
+
+## screenshots:
 
 ![](screenshots/1.png)
 
