@@ -8,14 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		E313A16A2A4F61F4002B5617 /* Little_Lemon_Food_Ordering_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313A1692A4F61F4002B5617 /* Little_Lemon_Food_Ordering_AppApp.swift */; };
-		E313A16C2A4F61F4002B5617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313A16B2A4F61F4002B5617 /* ContentView.swift */; };
 		E313A16E2A4F61F7002B5617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E313A16D2A4F61F7002B5617 /* Assets.xcassets */; };
 		E313A1712A4F61F7002B5617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E313A1702A4F61F7002B5617 /* Preview Assets.xcassets */; };
-		E313A1732A4F61F7002B5617 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313A1722A4F61F7002B5617 /* Persistence.swift */; };
 		E313A1762A4F61F7002B5617 /* Little_Lemon_Food_Ordering_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E313A1742A4F61F7002B5617 /* Little_Lemon_Food_Ordering_App.xcdatamodeld */; };
 		E313A1802A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313A17F2A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppTests.swift */; };
 		E313A18A2A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313A1892A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppUITests.swift */; };
 		E313A18C2A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313A18B2A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppUITestsLaunchTests.swift */; };
+		E32F28E52A50E628003A2DEE /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F28E42A50E628003A2DEE /* Onboarding.swift */; };
+		E32F28E82A50F078003A2DEE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F28E72A50F078003A2DEE /* Home.swift */; };
+		E32F28EA2A50F142003A2DEE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F28E92A50F142003A2DEE /* Menu.swift */; };
+		E32F28EC2A50F5C8003A2DEE /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F28EB2A50F5C8003A2DEE /* UserProfile.swift */; };
+		E32F28EF2A50F9B9003A2DEE /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F28EE2A50F9B8003A2DEE /* viewModel.swift */; };
+		E3C060322A510E52007A8232 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C060312A510E52007A8232 /* Header.swift */; };
+		E3C060342A5114C5007A8232 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C060332A5114C5007A8232 /* MainScreen.swift */; };
+		E3C060362A511627007A8232 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C060352A511627007A8232 /* Hero.swift */; };
+		E3C060382A511CB1007A8232 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C060372A511CB1007A8232 /* Font.swift */; };
+		E3C0603B2A512EDC007A8232 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C0603A2A512EDC007A8232 /* MenuItem.swift */; };
+		E3C0603E2A513022007A8232 /* Dish+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C0603C2A513022007A8232 /* Dish+CoreDataClass.swift */; };
+		E3C0603F2A513022007A8232 /* Dish+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C0603D2A513022007A8232 /* Dish+CoreDataProperties.swift */; };
+		E3C060472A513ED3007A8232 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C060422A513EC0007A8232 /* FetchedObjects.swift */; };
+		E3C0604B2A51437E007A8232 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C0604A2A51437E007A8232 /* DetailItem.swift */; };
+		E3C0604D2A514419007A8232 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C0604C2A514419007A8232 /* Persistence.swift */; };
+		E3C0604F2A5146F4007A8232 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C0604E2A5146F4007A8232 /* FoodItem.swift */; };
+		E3C060512A5161FA007A8232 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C060502A5161FA007A8232 /* MenuList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +53,32 @@
 /* Begin PBXFileReference section */
 		E313A1662A4F61F4002B5617 /* Little-Lemon-Food-Ordering-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little-Lemon-Food-Ordering-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E313A1692A4F61F4002B5617 /* Little_Lemon_Food_Ordering_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_Lemon_Food_Ordering_AppApp.swift; sourceTree = "<group>"; };
-		E313A16B2A4F61F4002B5617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E313A16D2A4F61F7002B5617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E313A1702A4F61F7002B5617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E313A1722A4F61F7002B5617 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E313A1752A4F61F7002B5617 /* Little_Lemon_Food_Ordering_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Little_Lemon_Food_Ordering_App.xcdatamodel; sourceTree = "<group>"; };
 		E313A17B2A4F61F7002B5617 /* Little-Lemon-Food-Ordering-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little-Lemon-Food-Ordering-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E313A17F2A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_Lemon_Food_Ordering_AppTests.swift; sourceTree = "<group>"; };
 		E313A1852A4F61F7002B5617 /* Little-Lemon-Food-Ordering-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little-Lemon-Food-Ordering-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E313A1892A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_Lemon_Food_Ordering_AppUITests.swift; sourceTree = "<group>"; };
 		E313A18B2A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_Lemon_Food_Ordering_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E32F28E42A50E628003A2DEE /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		E32F28E72A50F078003A2DEE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E32F28E92A50F142003A2DEE /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		E32F28EB2A50F5C8003A2DEE /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		E32F28EE2A50F9B8003A2DEE /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
+		E3C060312A510E52007A8232 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		E3C060332A5114C5007A8232 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		E3C060352A511627007A8232 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		E3C060372A511CB1007A8232 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		E3C0603A2A512EDC007A8232 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		E3C0603C2A513022007A8232 /* Dish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E3C0603D2A513022007A8232 /* Dish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E3C060422A513EC0007A8232 /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		E3C0604A2A51437E007A8232 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
+		E3C0604C2A514419007A8232 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E3C0604E2A5146F4007A8232 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		E3C060502A5161FA007A8232 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		E3C060522A516D74007A8232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +109,8 @@
 		E313A15D2A4F61F4002B5617 = {
 			isa = PBXGroup;
 			children = (
+				E3C0603C2A513022007A8232 /* Dish+CoreDataClass.swift */,
+				E3C0603D2A513022007A8232 /* Dish+CoreDataProperties.swift */,
 				E313A1682A4F61F4002B5617 /* Little-Lemon-Food-Ordering-App */,
 				E313A17E2A4F61F7002B5617 /* Little-Lemon-Food-Ordering-AppTests */,
 				E313A1882A4F61F7002B5617 /* Little-Lemon-Food-Ordering-AppUITests */,
@@ -98,10 +131,15 @@
 		E313A1682A4F61F4002B5617 /* Little-Lemon-Food-Ordering-App */ = {
 			isa = PBXGroup;
 			children = (
+				E3C060522A516D74007A8232 /* Info.plist */,
+				E3C060392A512EB8007A8232 /* Model */,
+				E3C060372A511CB1007A8232 /* Font.swift */,
 				E313A1692A4F61F4002B5617 /* Little_Lemon_Food_Ordering_AppApp.swift */,
-				E313A16B2A4F61F4002B5617 /* ContentView.swift */,
+				E32F28ED2A50F98D003A2DEE /* ViewModel */,
+				E32F28E62A50EAB8003A2DEE /* Views */,
 				E313A16D2A4F61F7002B5617 /* Assets.xcassets */,
-				E313A1722A4F61F7002B5617 /* Persistence.swift */,
+				E3C060422A513EC0007A8232 /* FetchedObjects.swift */,
+				E3C0604C2A514419007A8232 /* Persistence.swift */,
 				E313A1742A4F61F7002B5617 /* Little_Lemon_Food_Ordering_App.xcdatamodeld */,
 				E313A16F2A4F61F7002B5617 /* Preview Content */,
 			);
@@ -131,6 +169,39 @@
 				E313A18B2A4F61F7002B5617 /* Little_Lemon_Food_Ordering_AppUITestsLaunchTests.swift */,
 			);
 			path = "Little-Lemon-Food-Ordering-AppUITests";
+			sourceTree = "<group>";
+		};
+		E32F28E62A50EAB8003A2DEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E32F28E42A50E628003A2DEE /* Onboarding.swift */,
+				E32F28E72A50F078003A2DEE /* Home.swift */,
+				E32F28E92A50F142003A2DEE /* Menu.swift */,
+				E32F28EB2A50F5C8003A2DEE /* UserProfile.swift */,
+				E3C060312A510E52007A8232 /* Header.swift */,
+				E3C060332A5114C5007A8232 /* MainScreen.swift */,
+				E3C060352A511627007A8232 /* Hero.swift */,
+				E3C0604A2A51437E007A8232 /* DetailItem.swift */,
+				E3C0604E2A5146F4007A8232 /* FoodItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E32F28ED2A50F98D003A2DEE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E32F28EE2A50F9B8003A2DEE /* viewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E3C060392A512EB8007A8232 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3C0603A2A512EDC007A8232 /* MenuItem.swift */,
+				E3C060502A5161FA007A8232 /* MenuList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +334,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E313A1732A4F61F7002B5617 /* Persistence.swift in Sources */,
-				E313A16C2A4F61F4002B5617 /* ContentView.swift in Sources */,
+				E32F28EA2A50F142003A2DEE /* Menu.swift in Sources */,
+				E3C060322A510E52007A8232 /* Header.swift in Sources */,
+				E3C0604B2A51437E007A8232 /* DetailItem.swift in Sources */,
+				E3C0604F2A5146F4007A8232 /* FoodItem.swift in Sources */,
+				E3C0603F2A513022007A8232 /* Dish+CoreDataProperties.swift in Sources */,
+				E3C060342A5114C5007A8232 /* MainScreen.swift in Sources */,
+				E32F28EC2A50F5C8003A2DEE /* UserProfile.swift in Sources */,
+				E32F28E52A50E628003A2DEE /* Onboarding.swift in Sources */,
+				E3C060472A513ED3007A8232 /* FetchedObjects.swift in Sources */,
+				E3C0603B2A512EDC007A8232 /* MenuItem.swift in Sources */,
+				E3C0604D2A514419007A8232 /* Persistence.swift in Sources */,
+				E3C0603E2A513022007A8232 /* Dish+CoreDataClass.swift in Sources */,
+				E3C060362A511627007A8232 /* Hero.swift in Sources */,
+				E32F28E82A50F078003A2DEE /* Home.swift in Sources */,
+				E3C060382A511CB1007A8232 /* Font.swift in Sources */,
 				E313A16A2A4F61F4002B5617 /* Little_Lemon_Food_Ordering_AppApp.swift in Sources */,
+				E32F28EF2A50F9B9003A2DEE /* viewModel.swift in Sources */,
+				E3C060512A5161FA007A8232 /* MenuList.swift in Sources */,
 				E313A1762A4F61F7002B5617 /* Little_Lemon_Food_Ordering_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,7 +514,7 @@
 				DEVELOPMENT_TEAM = 7W7N543YH7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Little-Lemon-Food-Ordering-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -457,7 +543,7 @@
 				DEVELOPMENT_TEAM = 7W7N543YH7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Little-Lemon-Food-Ordering-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
