@@ -8,30 +8,34 @@ Its an app that allow the users to order from menu
 
 
 
-<img src="https://github.com/Ayman-Naim/Little-Lemon-dinner-menu/blob/main/screenshots/Demo.gif">
+<img src="https://github.com/Ayman-Naim/little-Lemon/blob/main/screen/deom.gif">
 
 
 ## Features
- - [x] 
- - [x] 
- - [x] 
+ - [x] login Screen with data entry
+ - [x] Home screen that have multiple sections
+ - [x] profile page that have his personal info
+ - [x] save profile info and change it
+ - [x] log out button
 
 
 ## Wireframe
-
+![](screen/wirefrane.png)
 
 ## screenshots:
 
-![](screenshots/1.png)
+
+![](screen/login.png)
 
 
-![](screenshots/2.png)
+![](screen/home.png)
 
 
-![](screenshots/3.png)
+![](screen/Detailed.png)
 
 
-![](screenshots/4.png)
+![](screen/userpage.png)
 
 
-![](screenshots/5.png)
+
+
