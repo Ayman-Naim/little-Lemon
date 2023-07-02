@@ -20,7 +20,7 @@ Its an app that allow the users to order from menu
 
 
 ## Wireframe
-![](screen/wirefrane.png)
+![](screen/Wirefrane.png)
 
 ## screenshots:
 
